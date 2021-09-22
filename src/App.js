@@ -1,4 +1,4 @@
-import TopBar from "./TopBar/topbar";
+import TopBar from "./TopBar/TopBar";
 
 function App() {
   return (

@@ -1,9 +1,9 @@
-import "./topbar.css"
+import "./TopBar.css"
 
 export default function TopBar(){
 
     return(
-        <div className="top">            
+        <div className="Top">            
             topbar
         </div>
 
