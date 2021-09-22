@@ -1,9 +1,8 @@
+import TopBar from "./TopBar/topbar";
 
 function App() {
   return (
-    <div className="App">
-      blog app     
-    </div>
+   <TopBar/>
   );
 }
 
