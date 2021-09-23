@@ -4,7 +4,7 @@ export default function TopBar(){
 
     return(
         <div className="Top">            
-            topbar
+            
         </div>
 
     )
