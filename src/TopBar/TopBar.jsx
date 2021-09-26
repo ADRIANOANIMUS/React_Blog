@@ -4,7 +4,12 @@ export default function TopBar(){
 
     return(
         <div className="Top">
-            <div className="topLeft"><i class="fab fa-facebook-square"></i></div>            
+            <div className="topLeft">
+            <i class="fab fa-facebook-square"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-pinterest"></i>
+            <i class="fab fa-instagram"></i>
+            </div>            
             <div className="topCenter">C</div>            
             <div className="topRight">R</div>            
             
