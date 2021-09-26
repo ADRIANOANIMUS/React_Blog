@@ -1,25 +1,28 @@
 import "./TopBar.css"
 
-export default function TopBar(){
+export default function TopBar() {
 
-    return(
+    return (
         <div className="Top">
             <div className="topLeft">
-            <i class="fab fa-facebook-square"></i>
-            <i class="fab fa-twitter"></i>
-            <i class="fab fa-pinterest"></i>
-            <i class="fab fa-instagram"></i>
-            </div>            
+                <i className="topIcon fab fa-facebook-square"></i>
+                <i className="topIcon fab fa-twitter"></i>
+                <i className="topIcon fab fa-pinterest"></i>
+                <i className="topIcon fab fa-instagram"></i>
+            </div>
             <div className="topCenter">
-                <ul className="topList"></ul>
+                <ul className="topList">
                     <li className="topListItem">HOME</li>
                     <li className="topListItem">ABOUT</li>
                     <li className="topListItem">CONTACT</li>
                     <li className="topListItem">WRITE</li>
                     <li className="topListItem">LOGOUT</li>
-            </div>            
-            <div className="topRight">R</div>            
-            
+                </ul>
+            </div>
+            <div className="topRight">R</div>
+            <img className ="TopImg" src="https://images.pexels.com/photos/1858175/pexels-photo-1858175.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="" />
+            <i className="topSearchIcon fas fa-search"></i>
+
         </div>
 
     )
