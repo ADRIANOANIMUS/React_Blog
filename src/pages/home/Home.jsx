@@ -3,10 +3,10 @@ import Posts from "../../posts/Posts"
 import Sidebar from "../../sidebar/Sidebar"
 import "./home.css"
 
-export default function home() {
+export default function Home() {
     return (
         <>
-         <Header/>
+        <Header/>
         <div className ="home">
             <Posts/>
             <Sidebar/>
