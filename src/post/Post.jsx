@@ -32,10 +32,8 @@ export default function Post() {
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                 Sed doloribus quibusdam ut placeat, molestias 
                 consequatur aperiam harum maxime est quae quia neque 
-                tempore. Maxime iste delectus debitis fuga maiores quos!
-                
+                tempore. Maxime iste delectus debitis fuga maiores quos!                
             </p>
-
         </div>
     )
 }
