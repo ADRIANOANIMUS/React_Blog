@@ -9,10 +9,38 @@ export default function SinglePost() {
                 />
                 <h1 className="singlePostTitle">Lorem ipsum dolor sit amet
                     <div className="singlePostEdit">
-                        <i class="far fa-edit"></i>
-                        <i class="fas fa-trash-alt"></i>
+                        <i className="singlePostIcon far fa-edit"></i>
+                        <i className="singlePostIcon far fa-trash-alt"></i>
                     </div>
                 </h1>
+                <div className="singlePostInfo">
+                    <span className="singlePostAuth">
+                        Autor: <b>Safak</b>
+                    </span>
+                    <span className="singlePostDate">1 hour ago</span>
+                </div>
+                <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    Iste esse quod voluptates labore ad quas corrupti possimus
+                    alias voluptatem veritatis. Ab delectus quo distinctio maxime
+                    autem veniam quod aliquid voluptatibus!
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    Iste esse quod voluptates labore ad quas corrupti possimus
+                    alias voluptatem veritatis. Ab delectus quo distinctio maxime
+                    autem veniam quod aliquid voluptatibus!
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    Iste esse quod voluptates labore ad quas corrupti possimus
+                    alias voluptatem veritatis. Ab delectus quo distinctio maxime
+                    autem veniam quod aliquid voluptatibus!
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    Iste esse quod voluptates labore ad quas corrupti possimus
+                    alias voluptatem veritatis. Ab delectus quo distinctio maxime
+                    autem veniam quod aliquid voluptatibus!
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    Iste esse quod voluptates labore ad quas corrupti possimus
+                    alias voluptatem veritatis. Ab delectus quo distinctio maxime
+                    autem veniam quod aliquid voluptatibus!
+                </p>
 
             </div>
         </div>
