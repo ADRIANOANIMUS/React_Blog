@@ -15,7 +15,7 @@ export default function SinglePost() {
                 </h1>
                 <div className="singlePostInfo">
                     <span className="singlePostAuth">
-                        Autor: <b>Safak</b>
+                        Autor: <b>Adriano</b>
                     </span>
                     <span className="singlePostDate">1 hour ago</span>
                 </div>
