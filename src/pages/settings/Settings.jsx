@@ -27,6 +27,7 @@ export default function Settings() {
                     <input type="email" placeholder="adrianoanimus@gmail.com" name="email" />
                     <label>Password</label>
                     <input type="password" />
+                    <button className="settingsSubmit">Update</button> 
 
                 </form>
             </div>
