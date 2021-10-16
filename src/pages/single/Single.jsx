@@ -7,8 +7,7 @@ export default function Single() {
     return (
         <div className ="single">            
             <SinglePost/>
-            <SideBar/>
-            
+            <SideBar/>            
         </div>
     )
 }
