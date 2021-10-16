@@ -4,7 +4,7 @@ export default function Register() {
     return (
         <div className="register">
             <span className="registerTitle">Register</span>
-            <form action="" className="registerForm">
+            <form className="registerForm">
                 <label>Username</label>
                 <input type="text" className ="registerInput" placeholder="Enter your username..." />
                 <label>Email</label>
@@ -13,7 +13,7 @@ export default function Register() {
                 <input type="password" className ="registerInput"  placeholder="Enter your password..." />
                 <button className="registerButton">Register</button>
             </form>
-            
+            <button className="registerLoginButton">Login</button>
         </div>
     )
 }
