@@ -1,16 +1,15 @@
 const express = require("express")
 const app = express()
-const dontev = require ("dontev")
+const dotenv = require ("dotenv")
 const mongoose = require("mongoose")
 
-dontev.config()
+dotenv.config()
 
-mongoose
-.connect(process.env.MONGO_URL, {
+mongoose.connect(process.env.MONGO_URL, {
     useNewUrlParser: true,
-    useUnifiedTopology: true,
-    useCreateIndex: true,
+    useUnifiedTopology: true,    
 })
+
 .then(console.log("connected to MongoDB"))
 .catch((err)=>console.log(err))
 
